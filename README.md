@@ -1,6 +1,6 @@
 # Aracrypt - File Encryption Tool 🔐
 
-**Aracrypt** aplikasi desktop berbasis GUI yang dikembangkan menggunakan Python untuk melakukan proses enkripsi dan dekripsi file secara lokal dengan tingkat keamanan tinggi. Aplikasi ini menggunakan algoritma AES-GCM 256-bit yang modern dan aman, serta dilengkapi proteksi passphrase dan verifikasi checksum SHA-256 guna menjaga integritas data. Dirancang untuk mendukung berbagai jenis file, Aracrypt dapat digunakan oleh pengguna umum, profesional TI, hingga praktisi keamanan siber yang membutuhkan solusi proteksi file yang praktis, cepat, dan kuat tanpa koneksi internet.
+**Aracrypt** adalah aplikasi desktop berbasis GUI yang dikembangkan menggunakan Python untuk melakukan proses enkripsi dan dekripsi file secara lokal dengan tingkat keamanan tinggi. Aplikasi ini menggunakan algoritma AES-GCM 256-bit yang modern dan aman, serta dilengkapi proteksi passphrase dan verifikasi checksum SHA-256 guna menjaga integritas data. Dirancang untuk mendukung berbagai jenis file, Aracrypt dapat digunakan oleh pengguna umum, profesional TI, hingga praktisi keamanan siber yang membutuhkan solusi proteksi file yang praktis, cepat, dan kuat tanpa koneksi internet.
 
 ---
 
@@ -70,6 +70,11 @@ pip install cryptography
 
 ---
 
-## 👨‍💻 Credit
-Nama: Bayu Surya A 
-Bidang: IT Security & Software Development
+# 👨‍💻 Kontributor & Pengembang
+
+Aplikasi ini dikembangkan oleh:
+
+### Bayu S. Arafah  
+🔐 IT Security Engineer | 🧠 Python Developer  
+📍  Jakarta, Indonesia  
+🔗 LinkedIn: [linkedin.com/in/bayu-surya-arafah](https://linkedin.com/in/bayu-surya-arafah/)
