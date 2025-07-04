@@ -1,6 +1,6 @@
 # Aracrypt - File Encryption Tool 🔐
 
-**Aracrypt** adalah aplikasi GUI berbasis Python yang digunakan untuk mengenkripsi dan mendekripsi berbagai jenis file menggunakan algoritma AES-GCM 256-bit dengan perlindungan passphrase. Aplikasi ini cocok untuk pengguna umum hingga teknisi yang ingin menjaga keamanan data file mereka secara lokal.
+**Aracrypt** aplikasi desktop berbasis GUI yang dikembangkan menggunakan Python untuk melakukan proses enkripsi dan dekripsi file secara lokal dengan tingkat keamanan tinggi. Aplikasi ini menggunakan algoritma AES-GCM 256-bit yang modern dan aman, serta dilengkapi proteksi passphrase dan verifikasi checksum SHA-256 guna menjaga integritas data. Dirancang untuk mendukung berbagai jenis file, Aracrypt dapat digunakan oleh pengguna umum, profesional TI, hingga praktisi keamanan siber yang membutuhkan solusi proteksi file yang praktis, cepat, dan kuat tanpa koneksi internet.
 
 ---
 
@@ -29,14 +29,16 @@ Aracrypt dapat mengenkripsi **semua jenis file**, seperti:
 
 ## 🛠️ Teknologi yang Digunakan
 
-| Komponen       | Fungsi                                      |
-|----------------|---------------------------------------------|
-| `Python 3.8+`  | Bahasa pemrograman                          |
-| `Tkinter`      | Antarmuka GUI                               |
-| `cryptography` | Enkripsi AES-GCM & derivasi kunci (Scrypt) |
-| `hashlib`      | Verifikasi SHA-256                          |
-| `PyInstaller`  | Konversi ke `.exe` (opsional)               |
-| `PyArmor`      | Obfuscation (opsional)                      |
+| Komponen                           | Fungsi                                                                 |
+|------------------------------------|------------------------------------------------------------------------|
+| `Python 3.8+`                      | Bahasa pemrograman utama                                               |
+| `Tkinter`                          | Antarmuka GUI (Graphical User Interface)                               |
+| `cryptography.AESGCM`             | Enkripsi & dekripsi menggunakan algoritma AES-GCM 256-bit               |
+| `cryptography.Scrypt`             | Derivasi passphrase menjadi kunci aman (Key Derivation Function)        | 
+| `hashlib.sha256`                  | Menghasilkan checksum SHA-256 untuk verifikasi integritas file          |
+| `re` (Regex)                      | Validasi kekuatan dan kompleksitas passphrase                           |
+| `threading`                       | Menjalankan enkripsi tanpa membekukan GUI (proses paralel)              |
+| `os`, `struct`, `filedialog` dll. | Akses file, direktori, dan format biner                                 |
 
 ---
 
@@ -48,24 +50,26 @@ Pastikan Python 3.8+ telah terpasang. Unduh dari: https://www.python.org
 ### 2. Instal dependensi
 ```bash
 pip install cryptography
+```
 
-🧪 Cara Menggunakan
-🔐 Enkripsi File
-Pilih file yang ingin dienkripsi
+## 🧪 Cara Menggunakan
+### 🔐 Enkripsi File
+1. Pilih file yang ingin dienkripsi
+2. Pilih lokasi output hasil enkripsi
+3. Masukkan dan konfirmasi passphrase
+4. Klik tombol "Enkripsi"
+5. File .enc dan checksum akan dihasilkan
 
-Pilih lokasi output hasil enkripsi
+---
 
-Masukkan dan konfirmasi passphrase
+### 🔓 Dekripsi File
+1. Pilih file .enc
+2. Masukkan passphrase yang sesuai
+3. Klik "Dekripsi"
+4. File asli akan dikembalikan dengan .dec jika passphrase & checksum cocok
 
-Klik tombol "Enkripsi"
+---
 
-File .enc dan checksum akan dihasilkan
-
-🔓 Dekripsi File
-Pilih file .enc
-
-Masukkan passphrase yang sesuai
-
-Klik "Dekripsi"
-
-File asli akan dikembalikan dengan .dec jika passphrase & checksum cocok
+## 👨‍💻 Credit
+Nama: Bayu Surya A 
+Bidang: IT Security & Software Development
