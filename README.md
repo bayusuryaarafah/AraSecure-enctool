@@ -42,7 +42,7 @@ Aracrypt dapat mengenkripsi **semua jenis file**, seperti:
 
 ---
 
-## 📥 Instalasi & Prasyarat
+## 📥 Instalasi & Prasyarat (Console-only)
 
 ### 1. Instal Python dan pip
 Pastikan Python 3.8+ telah terpasang. Unduh dari: https://www.python.org
