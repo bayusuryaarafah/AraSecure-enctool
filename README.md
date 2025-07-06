@@ -1,6 +1,6 @@
-# Aracrypt - File Encryption Tool 🔐
+# AraSecure - File Encryption Tool 🔐
 
-**Aracrypt** adalah aplikasi desktop berbasis GUI yang dikembangkan menggunakan Python untuk melakukan proses enkripsi dan dekripsi file secara lokal dengan tingkat keamanan tinggi. Aplikasi ini menggunakan algoritma AES-GCM 256-bit yang modern dan aman, serta dilengkapi proteksi passphrase dan verifikasi checksum SHA-256 guna menjaga integritas data. Dirancang untuk mendukung berbagai jenis file, Aracrypt dapat digunakan oleh pengguna umum, profesional TI, hingga praktisi keamanan siber yang membutuhkan solusi proteksi file yang praktis, cepat, dan kuat tanpa koneksi internet.
+**AraSecure** adalah aplikasi desktop berbasis GUI yang dikembangkan menggunakan Python untuk melakukan proses enkripsi dan dekripsi file secara lokal dengan tingkat keamanan tinggi. Aplikasi ini menggunakan algoritma AES-GCM 256-bit yang modern dan aman, serta dilengkapi proteksi passphrase dan verifikasi checksum SHA-256 guna menjaga integritas data. Dirancang untuk mendukung berbagai jenis file, AraSecure dapat digunakan oleh pengguna umum, profesional TI, hingga praktisi keamanan siber yang membutuhkan solusi proteksi file yang praktis, cepat, dan kuat tanpa koneksi internet.
 
 ---
 
@@ -18,7 +18,7 @@
 
 ## 📎 Jenis File yang Didukung
 
-Aracrypt dapat mengenkripsi **semua jenis file**, seperti:
+AraSecure dapat mengenkripsi **semua jenis file**, seperti:
 - 📄 `.pdf`, `.docx`, `.txt`
 - 🖼️ `.jpg`, `.png`, `.bmp`
 - 🎥 `.mp4`, `.mkv`
