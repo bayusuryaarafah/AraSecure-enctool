@@ -2,6 +2,12 @@
 
 **AraSecure** adalah aplikasi desktop berbasis GUI yang dikembangkan menggunakan Python untuk melakukan proses enkripsi dan dekripsi file secara lokal dengan tingkat keamanan tinggi. Aplikasi ini menggunakan algoritma AES-GCM 256-bit yang modern dan aman, serta dilengkapi proteksi passphrase dan verifikasi checksum SHA-256 guna menjaga integritas data. Dirancang untuk mendukung berbagai jenis file, AraSecure dapat digunakan oleh pengguna umum, profesional TI, hingga praktisi keamanan siber yang membutuhkan solusi proteksi file yang praktis, cepat, dan kuat tanpa koneksi internet.
 
+## Metadata
+- Original File Name: AraSecure3.exe
+- Version: 3.0
+- Size: 13.382 KB
+- Last Updated: 06/07/2025
+
 ### Checksum SHA-256
 ```bash
 07ce594052a8142312876de40b6ab339f91cfb3bb5c2be5f715282ac242704db
@@ -10,7 +16,7 @@
 
 ## 📌 Fitur Utama
 
-- 🔐 **Enkripsi dan Dekripsi File** dengan AES-GCM (256-bit)
+- 🔐 **Enkripsi dan Dekripsi File** dengan AES-GCM (256-bit) symmetric-based encryption
 - 🔑 **Validasi Passphrase**: Cek kekuatan dan kesesuaian passphrase
 - 🧠 **Indikator Kekuatan Passphrase**: Weak, Medium, atau Strong
 - 📁 **Pilih Lokasi Output File**: Bebas menentukan lokasi hasil enkripsi
@@ -38,7 +44,7 @@ AraSecure dapat mengenkripsi **semua jenis file**, seperti:
 | `Python 3.8+`                      | Bahasa pemrograman utama                                               |
 | `Tkinter`                          | Antarmuka GUI (Graphical User Interface)                               |
 | `cryptography.AESGCM`             | Enkripsi & dekripsi menggunakan algoritma AES-GCM 256-bit               |
-| `cryptography.Scrypt`             | Derivasi passphrase menjadi kunci aman (Key Derivation Function)        | 
+| `cryptography.Scrypt`             | Derivasi passphrase-based encryption (Key Derivation Function)          | 
 | `hashlib.sha256`                  | Menghasilkan checksum SHA-256 untuk verifikasi integritas file          |
 | `re` (Regex)                      | Validasi kekuatan dan kompleksitas passphrase                           |
 | `threading`                       | Menjalankan enkripsi tanpa membekukan GUI (proses paralel)              |
