@@ -4,7 +4,7 @@
 
 ## Metadata
 - Original File Name: AraSecure3.exe
-- - Max File Size: 2048 / 1024 ≈ 2 GB
+- Max File Size: 2048 / 1024 ≈ 2 GB
 - Version: 3.0
 - Size: 13.382 KB
 - Last Updated: 06/07/2025
