@@ -4,7 +4,6 @@
 
 ## Metadata
 - Original File Name: AraSecure3.exe
-- Max File Size: 2048 / 1024 ≈ 2 GB
 - Version: 3.0
 - Size: 13.382 KB
 - Last Updated: 06/07/2025
@@ -27,6 +26,12 @@
 
 ---
 
+# 🖥️ Sistem Operasi yang Didukung
+
+> ⚠️ **AraSecure hanya dapat dijalankan pada sistem operasi Windows (Windows 10/11 - 64-bit).**
+
+---
+
 ## 📎 Jenis File yang Didukung
 
 AraSecure dapat mengenkripsi **semua jenis file**, seperti:
@@ -35,6 +40,12 @@ AraSecure dapat mengenkripsi **semua jenis file**, seperti:
 - 🎥 `.mp4`, `.mkv`
 - 📦 `.zip`, `.rar`, `.exe`
 - Dan file biner lainnya
+
+---
+
+## 📦 Batasan Ukuran File
+
+> 📁 **Ukuran maksimum file yang dapat dienkripsi/dekripsi adalah 2GB.**
 
 ---
 
