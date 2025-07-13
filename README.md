@@ -29,6 +29,7 @@
 # 🖥️ Sistem Operasi yang Didukung
 
 > ⚠️ **AraSecure hanya dapat dijalankan pada sistem operasi Windows (Windows 10/11 - 64-bit).**
+Aplikasi ini **belum mendukung** sistem operasi Linux atau MacOS. 
 
 ---
 
@@ -45,7 +46,7 @@ AraSecure dapat mengenkripsi **semua jenis file**, seperti:
 
 ## 📦 Batasan Ukuran File
 
-> 📁 **Ukuran maksimum file yang dapat dienkripsi/dekripsi adalah 2GB.**
+> 📁 **Ukuran maksimum file yang dapat dienkripsi/dekripsi saat ini adalah 2GB.**
 
 ---
 
