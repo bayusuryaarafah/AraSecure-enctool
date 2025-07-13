@@ -1,16 +1,16 @@
 # AraSecure - File Encryption Tool 🔐
 
-**AraSecure** adalah aplikasi desktop berbasis GUI yang dikembangkan menggunakan Python untuk melakukan proses enkripsi dan dekripsi file secara lokal dengan tingkat keamanan tinggi. Aplikasi ini menggunakan algoritma AES-GCM 256-bit yang modern dan aman, serta dilengkapi proteksi passphrase dan verifikasi checksum SHA-256 guna menjaga integritas data. Dirancang untuk mendukung berbagai jenis file, AraSecure dapat digunakan oleh pengguna umum, profesional TI, hingga praktisi keamanan siber yang membutuhkan solusi proteksi file yang praktis, cepat, dan kuat tanpa koneksi internet.
+**AraSecure** adalah aplikasi desktop berbasis GUI yang dikembangkan menggunakan Python untuk melakukan proses enkripsi dan dekripsi file secara lokal dengan tingkat keamanan tinggi. Aplikasi ini menggunakan algoritma AES-GCM 256-bit yang modern dan aman, serta dilengkapi proteksi passphrase dan verifikasi checksum SHA-256 guna menjaga integritas data. Pada fitur lain AraSecure menyediakan checksum (hash generator dan verifier) untuk memverifikasi integritas file menggunakan algoritma hash seperti MD5, SHA1, SHA256, dan SHA512. Dirancang untuk mendukung berbagai jenis file, AraSecure dapat digunakan oleh pengguna umum, profesional TI, hingga praktisi keamanan siber yang membutuhkan solusi proteksi file yang praktis, cepat, dan kuat tanpa koneksi internet.
 
 ## Metadata
-- Original File Name: AraSecure3.exe
-- Version: 3.0
-- Size: 13.382 KB
-- Last Updated: 06/07/2025
+- Original File Name: AraSecure.exe
+- Version: 3.1
+- Size: 14.826 KB
+- Last Updated: 13/07/2025
 
 ### Checksum SHA-256
 ```bash
-07ce594052a8142312876de40b6ab339f91cfb3bb5c2be5f715282ac242704db
+d2e43bc334deed704bed5f5dc27c4db256a85a10c924aad348a55d2b88719c4f
 ```
 ---
 
@@ -22,7 +22,21 @@
 - 📁 **Pilih Lokasi Output File**: Bebas menentukan lokasi hasil enkripsi
 - 📊 **Progress Bar**: Menunjukkan status proses enkripsi
 - ✅ **Checksum Verifikasi SHA-256**: Memastikan integritas file saat dekripsi
-- 🛡️ **File Asli Tidak Dihapus**: Proses enkripsi tidak menghapus file sumber
+- 🛡️ **Opsi File Asli Tidak Dihapus**: Dapat menghapus file sumber atau tidak menghapus (Opsional)
+
+---
+
+## 🧾 Checksum Utilitty (New Update)
+
+AraSecure mendukung algoritma checksum:
+- MD5
+- SHA1
+- SHA256
+- SHA512
+
+Mode: 
+- Hash Generator: Menghasilkan hash dari file dan menyalinnya ke clipboard
+- Hash Verifier: Membandingkan hash file dengan checksum yang diberikan
 
 ---
 
@@ -45,7 +59,7 @@ AraSecure dapat mengenkripsi **semua jenis file**, seperti:
 
 ## 📦 Batasan Ukuran File
 
-> 📁 **Ukuran maksimum file yang dapat dienkripsi/dekripsi saat ini adalah 2GB.**
+> 📁 **Ukuran maksimum file yang dapat dienkripsi/dekripsi saat ini adalah > 2GB**
 
 ---
 
