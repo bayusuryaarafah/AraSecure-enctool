@@ -26,7 +26,7 @@ d2e43bc334deed704bed5f5dc27c4db256a85a10c924aad348a55d2b88719c4f
 
 ---
 
-## 🧾 Checksum Utilitty (New Update)
+## 🧾 Checksum Utility (New Update)
 
 AraSecure mendukung algoritma checksum:
 - MD5
