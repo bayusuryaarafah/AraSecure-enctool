@@ -26,10 +26,10 @@
 
 ---
 
-# 🖥️ Sistem Operasi yang Didukung
+## 🖥️ Sistem Operasi yang Didukung
 
 > ⚠️ **AraSecure hanya dapat dijalankan pada sistem operasi Windows (Windows 10/11 - 64-bit).**
-Aplikasi ini **belum mendukung** sistem operasi Linux atau MacOS. 
+> Aplikasi ini **belum mendukung** sistem operasi Linux atau MacOS. Coming Soon!
 
 ---
 
