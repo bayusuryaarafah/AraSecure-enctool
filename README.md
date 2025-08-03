@@ -4,13 +4,13 @@
 
 ## Metadata
 - Original File Name: AraSecure.exe
-- Version: 3.1
+- Version: 3.1.1
 - Size: 14.826 KB
-- Last Updated: 13/07/2025
+- Last Updated: 03/08/2025
 
 ### Checksum SHA-256
 ```bash
-d2e43bc334deed704bed5f5dc27c4db256a85a10c924aad348a55d2b88719c4f
+7fec0f4034af9491c9d11d9b418f74fd5982e337da8347cb54f50cdbd1e0b2ce
 ```
 ---
 
@@ -18,7 +18,7 @@ d2e43bc334deed704bed5f5dc27c4db256a85a10c924aad348a55d2b88719c4f
 
 - 🔐 **Enkripsi dan Dekripsi File** dengan AES-GCM (256-bit) symmetric-based encryption
 - 🔑 **Validasi Passphrase**: Cek kekuatan dan kesesuaian passphrase
-- 🧠 **Indikator Kekuatan Passphrase**: Weak, Medium, atau Strong
+- 🧠 **Indikator Kekuatan dan Pemeriksaan Passphrase**: Weak, Medium, atau Strong dan Deteksi passphrase lemah melalui wordlist dictionary
 - 📁 **Pilih Lokasi Output File**: Bebas menentukan lokasi hasil enkripsi
 - 📊 **Progress Bar**: Menunjukkan status proses enkripsi
 - ✅ **Checksum Verifikasi SHA-256**: Memastikan integritas file saat dekripsi
@@ -26,7 +26,7 @@ d2e43bc334deed704bed5f5dc27c4db256a85a10c924aad348a55d2b88719c4f
 
 ---
 
-## 🧾 Checksum Utility (New Update)
+## 🧾 Checksum Utility
 
 AraSecure mendukung algoritma checksum:
 - MD5
@@ -42,7 +42,7 @@ Mode:
 
 ## 🖥️ Sistem Operasi yang Didukung
 
-> ⚠️ **AraSecure hanya dapat dijalankan pada sistem operasi Windows (Windows 10/11 - 64-bit).** Aplikasi ini **belum mendukung** sistem operasi Linux atau MacOS. Coming Soon!
+> ⚠️ **AraSecure hanya dapat dijalankan pada sistem operasi Windows (Windows 10/11 - 64/86-bit).** Aplikasi ini **belum mendukung** sistem operasi Linux atau MacOS. Coming Soon!
 
 ---
 
@@ -59,7 +59,7 @@ AraSecure dapat mengenkripsi **semua jenis file**, seperti:
 
 ## 📦 Batasan Ukuran File
 
-> 📁 **Ukuran maksimum file yang dapat dienkripsi/dekripsi saat ini adalah > 2GB**
+> 📁 **Ukuran maksimum file yang dapat dienkripsi/dekripsi saat ini adalah > 10GB**
 
 ---
 
@@ -94,12 +94,12 @@ pip install cryptography
 2. Pilih lokasi output hasil enkripsi
 3. Masukkan dan konfirmasi passphrase
 4. Klik tombol "Enkripsi"
-5. File .enc dan checksum akan dihasilkan
+5. File .arasec dan checksum akan dihasilkan
 
 ---
 
 ### 🔓 Dekripsi File
-1. Pilih file .enc
+1. Pilih file .arasec
 2. Masukkan passphrase yang sesuai
 3. Klik "Dekripsi"
 4. File asli akan dikembalikan dengan .dec jika passphrase & checksum cocok
