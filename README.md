@@ -125,7 +125,7 @@ Chunk size: 4MB per block (memory-efficient design)
 
 ## Download Release
 
-1. Go to **Repos**
+1. Go to **Releases**
 2. Download the installer `.exe`
 3. Run installer
 4. Done
